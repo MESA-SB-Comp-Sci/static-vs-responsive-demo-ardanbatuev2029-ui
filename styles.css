@@ -16,6 +16,8 @@ h1 {
 
 h2 {
   font-size: 2.5vw; /* CHANGE TO: 2.5vw */
+   font-size:3vw;
+   margin-bottom:2vh;
 }
 
 p {
@@ -37,10 +39,33 @@ p {
 }
 
 /* Compleate challenge down here */
-#.h2 {
-  background-color:yellow;
-  color:black;
-  display:inline-block;
+.box-1{
+  background-color: orange;
+  display: inline-block;
+  color:green;
+}
+.box-2 {
+  background-color: purple;
+  display: inline-block;
+  color:cyan
+}
+.box-3{
+   background-color:pink;
+   display: inline-block;
+   color:rgb(64, 255, 0)
+}
+.box-4{
+   background-color:black;
+   display: inline-block;
+   color:greenyellow
+}
+
+.box-display {
+  display: inline-block;
+  width: 24vw;
+  height: 300vh;
+  padding:1rem;
+  font-size: 2rem;
 }
 
 
